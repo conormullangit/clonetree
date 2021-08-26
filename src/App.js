@@ -8,12 +8,14 @@ import Item from './components/Item';
 import Basket from './components/Basket';
 import MyItems from './components/MyItems';
 import MyAccount from './components/MyAccount';
+import BurgerBar from './components/BurgerBar';
 
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
+      <BurgerBar />
         <Navbar />
         <Header />
         <Switch>
