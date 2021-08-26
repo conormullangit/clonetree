@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const SignUp = () => {
   const [username, setUsername] = useState("");
 
@@ -8,7 +10,11 @@ const SignUp = () => {
           event.preventDefault();
           // setUsername(username);
         }}
-      ></form>
+      >
+        <label>
+          <input type="text" />
+        </label>
+      </form>
     </section>
   );
 };

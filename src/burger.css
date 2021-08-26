@@ -1,4 +1,6 @@
 .menu-btn {
+  margin-top: 10px;
+  margin-right: 270px;
   position: relative;
   display: flex;
   justify-content: center;
